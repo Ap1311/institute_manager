@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(135deg, #eef1ff, #f6f3ff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #4facfe, #9d50bb);
+}
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  text-shadow: 0 0 10px white;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  background: linear-gradient(90deg, #4facfe, #9d50bb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #4facfe, #9d50bb);
+  color: white;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.btn-gradient:hover {
+  box-shadow: 0 0 15px #9d50bb, 0 0 25px #4facfe;
+  color: white;
+}
+
+footer {
+  background: #f8f9fa;
+  color: #6c757d;
+  font-size: 14px;
+}
